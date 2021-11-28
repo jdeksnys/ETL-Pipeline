@@ -1,0 +1,9 @@
+INFO 2021-11-28 12:44:11,352 - (line:61) extract_xlsx.py - [OK] Successful local DB connection.
+INFO 2021-11-28 12:44:11,355 - (line:73) extract_xlsx.py - [OK] Table 'day_ahead_schema.day_ahead_lake' is empty.
+INFO 2021-11-28 12:44:12,877 - (line:121) extract_xlsx.py - [OK] Successful local DB diconnect
+INFO 2021-11-28 12:44:12,879 - (line:128) extract_xlsx.py - [OK] .xlsx deleted.
+INFO 2021-11-28 13:12:05,948 - (line:61) extract_xlsx.py - [OK] Successful local DB connection.
+INFO 2021-11-28 13:12:05,952 - (line:73) extract_xlsx.py - [OK] Table 'day_ahead_schema.day_ahead_lake' is empty.
+INFO 2021-11-28 13:12:07,506 - (line:121) extract_xlsx.py - [OK] Successful local DB diconnect
+INFO 2021-11-28 13:15:36,034 - (line:61) extract_xlsx.py - [OK] Successful local DB connection.
+INFO 2021-11-28 13:15:36,090 - (line:121) extract_xlsx.py - [OK] Successful local DB diconnect
