@@ -1,6 +1,6 @@
 # API>local_db>AWS_RDS
 
-!(https://github.com/jdeksnys/ETL-Pipeline/blob/main/diagram_pipeline.png)
+![alt text](https://github.com/jdeksnys/ETL-Pipeline/blob/main/diagram_pipeline.png)<br>
 ETL pipeline diagram.
 
 
