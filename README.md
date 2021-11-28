@@ -12,6 +12,7 @@ By creating a fully working pipeline:<br>
 
 ## What does it do?
 The data used is electricity prices and weather conditions. The pipeline is fully autonomous: scheduled daily (crontab), electricity price data (.xls) is dowloaded from an url, weather data fetched via an API, and inserted into a local database (Postgres). Next, it is being cleaned and transferred (PL/pgSQL) into 3NF-tables (see ERDs below). Lastly, the clean useful data is migrated to Amazon Web Services' RDS database via the foreign-fata wrapper in PL/pgSQL.<br>
+<br>
 
 ![alt text](https://github.com/jdeksnys/ETL-Pipeline/blob/main/ERD_day_ahead.png)<br>
 Price data ERD.<br>
@@ -19,7 +20,7 @@ Price data ERD.<br>
 ![alt text](https://github.com/jdeksnys/ETL-Pipeline/blob/main/ERD_meteo_png.png)<br>
 Weather data ERD<br>
 
-## Further improvements/future learnings
-- Switch from time to event based triggers<br>
+## Further improvements/learnings
+- Switch from time to event-based triggers<br>
 - Upload data in batches, not 'for each row'<br>
 - Prevent SQL injection<br>
